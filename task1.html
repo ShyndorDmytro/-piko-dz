@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' href='style.css'>
+    <meta charset="utf-8">
+    <title>
+        Завдання 1
+    </title>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <td id="menu">
+                <div>
+                    <input class="butn" type="button" value="По алфавіту" onclick='SortAndShowSurname()'>
+                    <br>
+                    <br>
+                    <input class="butn" type="button" value="За оцінками" onclick="SortAndShowRatting()">
+                    <br>
+                    <br>
+                    <input class="butn" type="button" value="З найменшою оцінкою" onclick="worstStudent()">
+                    <br>
+                    <br>
+                    <input class="butn" type="button" value="З середньою оцінкою" onclick="avrgStudent()">
+                    <br>
+                    <br>
+                    <input class="butn" type="button" value="З найбільшою оцінкою" onclick="bestStudent()">
+                    <br>
+                    <br>
+                    <input class="butn" type="button" value="Рейтинг" onclick="Rate()">
+
+
+
+                </div>
+            </td>
+            <td></td>
+            <td id="solution">
+                <div id="result">
+
+                </div>
+            </td>
+        </tr>
+
+    </table>
+
+    <script src="task1.js"></script>
+
+</body>
+
+</html>
